@@ -63,7 +63,7 @@ css-positioning-house-painting/
 ## Preview
 ![Preview of House](images/preview.png)
 
-## How to Use
+## 🚀 How to Use
 1. Clone the repository:
     ```
     git clone https://github.com/karianjahi/css-positioning-house-painting.git

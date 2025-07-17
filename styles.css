@@ -1,0 +1,155 @@
+#house {
+    position: relative;
+    top: 400px;
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 5px solid #b35900;
+    margin: auto;
+}
+
+#house div {
+    position: absolute;
+}
+
+#chimney {
+    position: absolute;
+    top: -120px;
+    left: 350px;
+    width: 100px;
+    height: 120px;
+    background-color: antiquewhite;
+    border: 4px solid #000;
+    z-index: -1;
+}
+
+.line {
+    position: absolute;
+    width: 100px;
+    height: 0;
+    border: 0px solid #000;
+}
+
+.one {
+    top: 15px;
+    border: 1px solid #000;
+}
+.two {
+    top: 30px;
+    border: 1px solid #000;
+}
+.three {
+    top: 45px;
+    border: 1px solid #000;
+}
+.four {
+    top: 60px;
+    border: 1px solid #000;
+}
+.five {
+    top: 75px;
+    border: 1px solid #000;
+}
+.six {
+    top: 90px;
+    border: 1px solid #000;
+}
+.seven {
+    top: 105px;
+    border: 1px solid #000;
+}
+
+#smoke {
+    width: 51px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);;
+    position: absolute;
+    top: -30px;
+    left: 25px;
+    border-radius: 50%;
+    box-shadow: 0 -10px 10px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+
+
+#roof {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 502px;
+    height: 100px;
+    border: 4px solid #000;
+    background-color: #b35900;
+    background: repeating-linear-gradient(
+        45deg,
+        #b35900,
+        white 2%
+    );
+}
+
+#door {
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    width: 100px;
+    height: 150px;
+    background-color: chartreuse;
+    border: 4px solid rgb(123, 95, 95);
+}
+
+.door-handle {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#welcome-mat {
+    display: flex;
+    position: absolute;
+    top: 403px;
+    left: 195px;
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-15deg);
+    border: 2px solid black;
+}
+
+#window-1 {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 75px;
+    height: 85px;
+    border: 4px solid cornflowerblue;
+    background-color: bisque;
+}
+
+#window-2 {
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    width: 75px;
+    height: 85px;
+    border: 4px solid cornflowerblue;
+    background-color: bisque;
+}
+
+.window-divider {
+    position: absolute;
+    top: -2px;
+    left: 35px;
+    width: 0;
+    height: 85px;
+    border: 2px solid darkblue;
+    background-color: cyan;
+
+}
